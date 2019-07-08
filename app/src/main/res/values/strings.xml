@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Login Base Classes</string>
+
+    <string name="network_connection_error">Internet connection lost, please retry again</string>
+    <string name="network_default_error">Something wrong happened, please retry again</string>
+    <string name="network_internal_error">Our systems got an error, please retry again</string>
+    <string name="network_server_not_available">Our services are under maintenance, please retry after some time
+    </string>
+    <string name="server_connection_error">Not able to connect, please retry again</string>
+    <string name="network_login_again">Please log in again</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="login_button_text">Login</string>
+    <string name="email_blank">email is blank</string>
+    <string name="email_wrong">email is wrong</string>
+    <string name="email_success">Email entered is correct</string>
+
+    <string name="password_blank">password is blank</string>
+    <string name="password_wrong">password is wrong</string>
+    <string name="password_success">Password entered is correct</string>
+</resources>
