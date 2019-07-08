@@ -16,7 +16,7 @@
   
   * Usually the request and response should be below the repository level in the architecture.
   * Respository hides the details from caller and handles the business logic
-  * ```
+  ```
       fun doUserLogin(email: String, password: String): Single<User> =
         networkService.doLoginCall(LoginRequest(email, password))
             .map {
@@ -28,7 +28,6 @@
                     it.profilePicUrl
                 )
             }
-			
-			``` 
+	``` 
   * In the above code the networkservice is making the network call and the response that it gives we transform into `User` object in `UserRepository`
    as we only handle data in repository layer not the error or response codes.
